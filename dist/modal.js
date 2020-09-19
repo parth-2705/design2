@@ -1,5 +1,5 @@
 $(window).load(function(){
    setTimeout(function(){
-       $("#myModal").modal();
+       $("#myModal").show();
    }, 2000);
 });

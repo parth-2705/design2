@@ -10,6 +10,13 @@ body {
 	background-color: #000000;
 }
 
+#myModal{
+	display: none;
+}
+
+#services {
+ background-color: f2fefe !important;
+}
 
 .services-pic, .services-text{
 	height: 200px;
@@ -36,12 +43,12 @@ margin: -5px auto 20px;
 }
 
 .services-text h4{
-	color: #61a8bc;
-	font-weight: 400;
+	color: #2f333a;
+	
 }
 
 #services {
-	background-color: #ffffff;
+	background-color: #f4f4f5;
 }
 
 #services .glyphicon {
@@ -301,14 +308,15 @@ fieldset[disabled] .btn-xl.active {
     }
 	
 	.services-text p{
-	font-size: 22px;
-	line-height: 32px;
-	font-family: 'Roboto', sans-serif;
-	
+	font-size: 20px;
+	line-height: 23px;
+	font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-style: italic;
+    color: #585b61;
 }
 .services-text h4{
 	font-size: 36px;
-	text-transform: uppercase;
+	text-transform: none;
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -376,7 +384,7 @@ header .intro-text .intro-heading {
 header .intro-text p {
 
     font-size: 18px;
-	margin-left: 10px;
+	margin-left: 20px;
 }
 
 @media(min-width:768px) {
@@ -427,7 +435,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 70px 0;
     }
 }
 
@@ -966,6 +974,10 @@ img::selection {
 img::-moz-selection {
     background: 0 0;
 }
+
+
+
+
 
 body {
     webkit-tap-highlight-color: #61a8bc;
