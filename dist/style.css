@@ -10,12 +10,46 @@ body {
 	background-color: #000000;
 }
 
-#myModal{
-	display: none;
+.cut{
+	cursor: pointer;
 }
 
+.modal1 h6{
+	font-size: 20px;
+}
+
+
+.modal1{
+	position: fixed;
+	z-index:999;
+	display: none;
+	border-radius: 13px;
+	top: 0; bottom: 0;
+	left: 0; right:0;
+	margin: auto;
+	height: 400px;
+	padding: 50px;
+	width: 650px;
+	background-color: #2f333a;
+	color: #fff;
+	text-align: center;
+}
+ 
+ .modal1 input{
+	 margin: 30px auto;
+ }
+ 
+.modal1 h3{
+	text-transform: none;
+	font-size: 20px;
+}
+
+
+
+
+
 #services {
- background-color: f2fefe !important;
+ background-color: #f2fefe !important;
 }
 
 .services-pic, .services-text{
@@ -298,6 +332,10 @@ fieldset[disabled] .btn-xl.active {
 
 
 @media(min-width:768px) {
+	.modal1{
+	padding: 50px;
+}
+	
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -986,4 +1024,18 @@ body {
 .navbar-default .nav li a {
     margin-left: 0 !important;
 }
+ .modal1{
+	 width: 350px;
+ }
+
+	.modal1 h2{
+	font-size: 25px;
+}
+
+.modal1 h3{
+	font-size: 15px !important;
+	text-transform: none;
+	
+}
+
 }
