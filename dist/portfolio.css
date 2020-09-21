@@ -7,8 +7,12 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
-	background-color: #000000;
-	
+
+	background-color: #2f333a;
+}
+
+.portfolio-item img{
+	margin-bottom: 20px;
 }
 
 .navbar{
@@ -193,7 +197,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #f2fefe !important;
+    background-color: #fbfefe !important;
 }
 
 .navbar-default .navbar-brand {
@@ -365,6 +369,8 @@ section h2.section-heading {
 }
 
 .strip{
+	padding-top: 100px;
+	padding-bottom: 50px;
 	margin-bottom: 50px;
 	color: #fff;
 }
@@ -919,4 +925,10 @@ body {
     margin: 20px 10px 0 !important;
 	
 }
+.strip{
+	padding-top: 50px;
+	padding-bottom: 0px;
+	margin-bottom: 50px;
+}
+
 }
