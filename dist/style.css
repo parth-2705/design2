@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+.gydtop{
+	-webkit-box-shadow: 0px 2px 10px 0px rgba(47,51,58,0.5);
+-moz-box-shadow: 0px 2px 10px 0px rgba(47,51,58,0.5);
+box-shadow: 0px 2px 10px 0px rgba(47,51,58,0.5);
+}
+
+.fixed-action-btn img{
+	height: 70px;
+}
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -164,7 +174,7 @@ h6 {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #61a8bc;
+    background-color: #17d0d5s;
 }
 
 .btn-primary:hover,
@@ -216,7 +226,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #61a8bc;
+    background-color: #17d0d5;
 }
 
 .btn-xl:hover,
@@ -389,7 +399,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(img/11.jpg);
-	max-height: 100vh;
+	height: 100vh;
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -1037,6 +1047,10 @@ body {
 	font-size: 15px !important;
 	text-transform: none;
 	
+}
+
+.fixed-action-btn img{
+	height: 50px;
 }
 
 }
